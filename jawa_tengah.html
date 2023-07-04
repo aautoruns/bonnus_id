@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang=id class=scroll-smooth>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Identity -->
+    <title>Dolltural - Learn Nusantara Cultural</title>
+    <link rel="shortcut icon" href="dist/img/favicon.webp" type="image/x-icon">
+    <!-- Vendor -->
+    <script src="https://unpkg.com/typed.js@2.0.8/lib/typed.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite/dist/flowbite.min.js" async></script>
+    <link rel="stylesheet" as="style" onload href="https://cdn.jsdelivr.net/npm/flowbite/dist/flowbite.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" as="style" onload href=/dist/css/style.css>
+
+</head>
+
+<body class="dark:bg-teal-900 dark:text-charlie transition duration-100">
+    <!-- Header Start -->
+    <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-white">
+        <div class="container">
+            <div class="relative flex items-center justify-between">
+                <div class="px-4">
+                    <a href="/" class="block py-6 text-lg font-extrabold">Boneka Nusantara</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+                    <nav id=nav-menu
+                        class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white dark:bg-slate-900 dark:backdrop-filter dark:backdrop-blur-2xl dark:bg-opacity-90 bg-clip-padding py-5 border border-slate-200 dark:border-slate-800 lg:border-none lg:border-slate-50 shadow lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none">
+                        <ul class="block px-5 top lg:flex">
+                            <li><a aria-label="ini-deskripsi" href="/index.html"
+                                    class="block py-2 px-4 hover:font-bold">🪆
+                                    Dashboard</a></li>
+                            <li><a aria-label="ini-deskripsi" href="/learning.html" class="block py-2 px-4 font-bold">🎶
+                                    Learning</a></li>
+                            <li><a aria-label="ini-deskripsi" href="/quiz.html"
+                                    class="block py-2 px-4 hover:font-bold">✏️
+                                    Mini Quiz</a></li>
+                            <li
+                                class="bg-primary rounded-md mt-3 text-white lg:text-black  lg:bg-transparent lg:rounded-none lg:mt-0">
+                                <a aria-label="ini-deskripsi" href="/shop.html"
+                                    class="block py-2 px-4 hover:font-bold">🛒
+                                    Toy Shop</a>
+                            </li>
+                            <button
+                                class="flex items-center justify-center bg-dark lg:w-24 w-full h-10 rounded-lg lg:mt-0 mt-2 lg:mx-12 text-white"><a
+                                    href="#">Sign In</a></button>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero -->
+    <section class="pt-32 pb-32 bg-center bg-no-repeat pattern bg-blend-multiply">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">Java
+                Island Culture's</h1>
+            <p class="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on
+                markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
+            </p>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="#"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    Get started
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-secondary bg-white focus:ring-4 focus:ring-gray-400">
+                    Learn more
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- CTA -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+            <div class="flex flex-col justify-center">
+                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">
+                    Gambyong Paeranom Dance</h1>
+                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Lorem, ipsum dolor sit
+                    amet consectetur adipisicing elit. Officia, ipsam quod ut ea quisquam tempore exercitationem enim
+                    minus quia vel modi nesciunt nostrum nam officiis!
+                </p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        Get started
+                        <svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                        Learn more
+                    </a>
+                </div>
+            </div>
+            <div>
+                <iframe class="mx-auto w-full lg:max-w-xl h-96 rounded-lg sm:h-96 shadow-xl"
+                    src="https://www.youtube.com/embed/BqWw4HPHq1o" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir CTA -->
+
+    <!-- Blog -->
+    <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
+        <div class="container flex justify-between px-4 mx-auto">
+            <article class="mx-auto w-full format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+                <header class="mb-4 lg:mb-6 not-format">
+                    <h1
+                        class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+                        Traditional Music from Central Java</h1>
+                </header>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cumque aliquam praesentium
+                    labore similique eveniet facilis est vitae quo sequi eligendi, ratione odio? A, rerum minima
+                    laboriosam aliquam deserunt beatae nobis similique natus, omnis molestias possimus vero molestiae.
+                    Laborum, et! Obcaecati quos dolore reprehenderit sint commodi omnis officia quas voluptates.</p>
+                <figure class="my-5">
+                    <iframe class="w-full h-96 rounded-md" src="https://www.youtube.com/embed/J2p9Vytbm1Q"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <figcaption class="my-2">Source : Prau Layar - Lagu Daerah Jawa Tengah by YouTube Lagu Daerah
+                        Indonesia</figcaption>
+                </figure>
+
+                <!--Container-->
+                <div class="container w-full md:max-w-3xl mx-auto pt-10">
+
+                    <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal"></div>
+                    <div class="font-sans">
+                        <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-5xl md:text-4xl">
+                            Joglo</h1>
+                        <p class="text-sm md:text-base font-normal text-gray-600">Rumah adat dari Jawa Tengah</p>
+                    </div>
+                    <div class="flex flex-wrap justify-center w-full items-center py-5">
+                        <iframe class="lg:w-1/2 lg:h-96 rounded-md" src="https://www.youtube.com/embed/YHK9HBPrL2U"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <p class="lg:w-1/2 text-lg text-justify max-w-xl mt-5 mx-5">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Fuga blanditiis quibusdam itaque voluptatum tenetur illum
+                            adipisci? Dolorum ad itaque sunt fugiat, similique tempora. Repellendus fuga incidunt
+                            tenetur dicta praesentium nobis earum cumque alias impedit deserunt, eos voluptas architecto
+                            rem provident? Assumenda accusamus rem deserunt laborum, vitae excepturi repudiandae cum!
+                            At!</p>
+                    </div>
+                    <aside aria-label="Related articles" class="container py-8 lg:py-24 bg-gray-50 dark:bg-gray-800">
+                        <div class="px-4 mx-auto">
+                            <h2 class="mb-8 text-2xl font-bold text-gray-900 dark:text-white">Related articles</h2>
+                            <div class="grid justify-center items-center gap-12 sm:grid-cols-2 lg:grid-cols-4">
+                                <article class="max-w-xs grid justify-center items-center">
+                                    <a href="#">
+                                        <img src="https://source.unsplash.com/900x500?indonesia" class="mb-5 rounded-lg"
+                                            alt="Image 1">
+                                    </a>
+                                    <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                                        <a href="#">Lorem, ipsum.</a>
+                                    </h2>
+                                    <p class="mb-4 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor
+                                        sit
+                                        amet
+                                        consectetur adipisicing elit. Laudantium dignissimos vel assumenda.</p>
+                                    <a href="#"
+                                        class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                                        Read in 2 minutes
+                                    </a>
+                                </article>
+                                <article class="max-w-xs grid justify-center items-center">
+                                    <a href="#">
+                                        <img src="https://source.unsplash.com/900x500?indonesia" class="mb-5 rounded-lg"
+                                            alt="Image 1">
+                                    </a>
+                                    <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                                        <a href="#">Lorem, ipsum.</a>
+                                    </h2>
+                                    <p class="mb-4 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor
+                                        sit
+                                        amet
+                                        consectetur adipisicing elit. Laudantium dignissimos vel assumenda.</p>
+                                    <a href="#"
+                                        class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                                        Read in 2 minutes
+                                    </a>
+                                </article>
+                                <article class="max-w-xs grid justify-center items-center">
+                                    <a href="#">
+                                        <img src="https://source.unsplash.com/900x500?indonesia" class="mb-5 rounded-lg"
+                                            alt="Image 1">
+                                    </a>
+                                    <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                                        <a href="#">Lorem, ipsum.</a>
+                                    </h2>
+                                    <p class="mb-4 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor
+                                        sit
+                                        amet
+                                        consectetur adipisicing elit. Laudantium dignissimos vel assumenda.</p>
+                                    <a href="#"
+                                        class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                                        Read in 2 minutes
+                                    </a>
+                                </article>
+                                <article class="max-w-xs grid justify-center items-center">
+                                    <a href="#">
+                                        <img src="https://source.unsplash.com/900x500?indonesia" class="mb-5 rounded-lg"
+                                            alt="Image 1">
+                                    </a>
+                                    <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                                        <a href="#">Lorem, ipsum.</a>
+                                    </h2>
+                                    <p class="mb-4 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor
+                                        sit
+                                        amet
+                                        consectetur adipisicing elit. Laudantium dignissimos vel assumenda.</p>
+                                    <a href="#"
+                                        class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                                        Read in 2 minutes
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                    </aside>
+                    <section class="not-format">
+                        <div class="flex justify-between items-center mb-6">
+                            <h2 class="text-lg lg:text-2xl font-bold">Discussion (20)</h2>
+                        </div>
+                        <form class="mb-6">
+                            <div
+                                class="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+                                <label for="comment" class="sr-only">Your comment</label>
+                                <textarea id="comment" rows="6"
+                                    class="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0 dark:text-white dark:placeholder-gray-400 dark:bg-gray-800"
+                                    placeholder="Write a comment..." required></textarea>
+                            </div>
+                            <button type="submit"
+                                class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+                                Post comment
+                            </button>
+                        </form>
+                        <article class="p-6 mb-6 text-base bg-white rounded-lg dark:bg-gray-900">
+                            <footer class="flex justify-between items-center mb-2">
+                                <div class="flex items-center">
+                                    <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                                        <img class="mr-2 w-6 h-6 rounded-full"
+                                            src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
+                                            alt="Michael Gough">Michael Gough
+                                    </p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate
+                                            datetime="2022-02-08" title="February 8th, 2022">Feb. 8, 2022</time></p>
+                                </div>
+                                <button id="dropdownComment1Button" data-dropdown-toggle="dropdownComment1"
+                                    class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                    type="button">
+                                    <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z">
+                                        </path>
+                                    </svg>
+                                    <span class="sr-only">Comment settings</span>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdownComment1"
+                                    class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                                        aria-labelledby="dropdownMenuIconHorizontalButton">
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Remove</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Report</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </footer>
+                            <p>Very straight-to-point article. Really worth time reading. Thank you! But tools are
+                                just
+                                the
+                                instruments for the UX designers. The knowledge of the design tools are as important
+                                as
+                                the
+                                creation of the design strategy.</p>
+                            <div class="flex items-center mt-4 space-x-4">
+                                <button type="button"
+                                    class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400">
+                                    <svg aria-hidden="true" class="mr-1 w-4 h-4" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+                                        </path>
+                                    </svg>
+                                    Reply
+                                </button>
+                            </div>
+                        </article>
+                        <article class="p-6 mb-6 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-gray-900">
+                            <footer class="flex justify-between items-center mb-2">
+                                <div class="flex items-center">
+                                    <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                                        <img class="mr-2 w-6 h-6 rounded-full"
+                                            src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+                                            alt="Jese Leos">Jese
+                                        Leos
+                                    </p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate
+                                            datetime="2022-02-12" title="February 12th, 2022">Feb. 12, 2022</time>
+                                    </p>
+                                </div>
+                                <button id="dropdownComment2Button" data-dropdown-toggle="dropdownComment2"
+                                    class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                    type="button">
+                                    <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z">
+                                        </path>
+                                    </svg>
+                                    <span class="sr-only">Comment settings</span>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdownComment2"
+                                    class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                                        aria-labelledby="dropdownMenuIconHorizontalButton">
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Remove</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Report</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </footer>
+                            <p>Much appreciated! Glad you liked it ☺️</p>
+                            <div class="flex items-center mt-4 space-x-4">
+                                <button type="button"
+                                    class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400">
+                                    <svg aria-hidden="true" class="mr-1 w-4 h-4" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+                                        </path>
+                                    </svg>
+                                    Reply
+                                </button>
+                            </div>
+                        </article>
+                        <article
+                            class="p-6 mb-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                            <footer class="flex justify-between items-center mb-2">
+                                <div class="flex items-center">
+                                    <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                                        <img class="mr-2 w-6 h-6 rounded-full"
+                                            src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
+                                            alt="Bonnie Green">Bonnie Green
+                                    </p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate
+                                            datetime="2022-03-12" title="March 12th, 2022">Mar. 12, 2022</time></p>
+                                </div>
+                                <button id="dropdownComment3Button" data-dropdown-toggle="dropdownComment3"
+                                    class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                    type="button">
+                                    <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z">
+                                        </path>
+                                    </svg>
+                                    <span class="sr-only">Comment settings</span>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdownComment3"
+                                    class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                                        aria-labelledby="dropdownMenuIconHorizontalButton">
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Remove</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Report</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </footer>
+                            <p>The article covers the essentials, challenges, myths and stages the UX designer
+                                should
+                                consider
+                                while creating the design strategy.</p>
+                            <div class="flex items-center mt-4 space-x-4">
+                                <button type="button"
+                                    class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400">
+                                    <svg aria-hidden="true" class="mr-1 w-4 h-4" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+                                        </path>
+                                    </svg>
+                                    Reply
+                                </button>
+                            </div>
+                        </article>
+                        <article
+                            class="p-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                            <footer class="flex justify-between items-center mb-2">
+                                <div class="flex items-center">
+                                    <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                                        <img class="mr-2 w-6 h-6 rounded-full"
+                                            src="https://flowbite.com/docs/images/people/profile-picture-4.jpg"
+                                            alt="Helene Engels">Helene Engels
+                                    </p>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate
+                                            datetime="2022-06-23" title="June 23rd, 2022">Jun. 23, 2022</time></p>
+                                </div>
+                                <button id="dropdownComment4Button" data-dropdown-toggle="dropdownComment4"
+                                    class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                    type="button">
+                                    <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z">
+                                        </path>
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdownComment4"
+                                    class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                                        aria-labelledby="dropdownMenuIconHorizontalButton">
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Remove</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Report</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </footer>
+                            <p>Thanks for sharing this. I do came from the Backend development and explored some of
+                                the
+                                tools to
+                                design my Side Projects.</p>
+                            <div class="flex items-center mt-4 space-x-4">
+                                <button type="button"
+                                    class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400">
+                                    <svg aria-hidden="true" class="mr-1 w-4 h-4" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+                                        </path>
+                                    </svg>
+                                    Reply
+                                </button>
+                            </div>
+                        </article>
+                    </section>
+            </article>
+        </div>
+
+    </main>
+    <!-- End Blog -->
+
+    <!-- Footer -->
+    <footer aria-label="Site Footer" class="bg-gray-100 dark:bg-[#080E16] lg:grid lg:grid-cols-5">
+        <div class="relative block h-52 lg:col-span-2 lg:h-full">
+            <img src="https://source.unsplash.com/900x500?indonesia+culture" alt="footer-cover"
+                class="absolute inset-0 object-cover w-full h-full" />
+        </div>
+        <div class="p-10 sm:px-6 lg:col-span-3 lg:px-8">
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+                <div>
+                    <p>
+                        <span class="text-xs tracking-wide uppercase">
+                            Boneka Nusantara
+                        </span>
+                        <span class="block text-2xl font-semibold sm:text-3xl">Latarbelakang</span>
+                    </p>
+                    <ul class="mt-8 space-y-1 text-sm">
+                        <li class="text-sm max-w-md text-justify font-semibold">Kebudayaan indonesia yang sering kali
+                            atau bahkan lalai disampaikan oleh orang tua kepada anaknya menjadi masalah utama
+                            kami dalam perencanaan produk ini.
+                            <span class="block mt-5">Manfaat produk kami untuk mengedukasi anak-anak untuk mengenal
+                                daerah-daerah di Indonesia lewat boneka maskot yang
+                                desainnya menarik dan lucu
+                                di-mata anak-anak.</span>
+                        </li>
+                    </ul>
+                    <div class="text-xs tracking-wide uppercase mt-5 mb-3">
+                        Temukan kami juga di :
+                    </div>
+                    <ul class="flex flex-wrap">
+                        <li>
+                            <a aria-label="ini-deskripsi" href="https://github.com/" target=_blank>
+                                <div class="flex items-center">
+                                    <div
+                                        class="w-10 h-10 bg-secondary dark:bg-slate-800 hover:bg-[#181717] dark:hover:bg-[#181717] rounded-full grayscale hover:grayscale-0 mr-3 transition duration-200 ease-in-out">
+                                        <svg role=img viewBox="0 0 24 24" xmlns=http://www.w3.org/2000/svg
+                                            class="fill-white w-6 h-6 m-auto my-2">
+                                            <title>GitHub</title>
+                                            <path
+                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a aria-label="ini-deskripsi" href="https://instagram.com/" target=_blank>
+                                <div class="flex items-center">
+                                    <div
+                                        class="w-10 h-10 bg-secondary dark:bg-slate-800 hover:bg-[#302683] dark:hover:bg-[#302683] rounded-full grayscale hover:grayscale-0 mr-3 transition duration-200 ease-in-out">
+                                        <svg role=img viewBox="0 0 24 24" xmlns=http://www.w3.org/2000/svg
+                                            class="fill-white w-6 h-6 m-auto my-2">
+                                            <title>Instagram</title>
+                                            <path
+                                                d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a aria-label="ini-deskripsi" href="https://shopee.co.id/" target=_blank>
+                                <div class="flex items-center">
+                                    <div
+                                        class="w-10 h-10 bg-secondary dark:bg-slate-800 hover:bg-orange-500 dark:hover:bg-orange-500 rounded-full grayscale hover:grayscale-0 mr-3 transition duration-200 ease-in-out">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="fill-white w-5 h-5 m-auto my-2"
+                                            viewBox="0 0 16 16">
+                                            <title>Shopee</title>
+                                            <path
+                                                d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <p class="font-semibold text-teal-900 ">Group Members 🤼</p>
+                        <nav aria-label="Footer Navigation - Services" class="mt-6">
+                            <ul class="space-y-2 text-sm">
+                                <li>Eka Saputri (20.240.0121)</li>
+                                <li>Galih Azella Firdaus (21.240.0044)</li>
+                                <li>Lintang Mawar Bani (21.240.0087)</li>
+                                <li>Fatimah Azzahra (21.240.0066)</li>
+                                <li>Muhammad Ikrom (21.240.0114)</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-teal-900 ">Pages</p>
+                        <nav aria-label="Footer Navigation - Company" class="mt-6">
+                            <ul class="space-y-4 text-sm">
+                                <li>
+                                    <a href="#" class="transition hover:opacity-75">
+                                        Dashboard 🪆
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="transition hover:opacity-75">
+                                        Learning 🎶
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="transition hover:opacity-75">
+                                        Mini Quiz ✏️
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="transition hover:opacity-75">
+                                        Toy Shop 🛒
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr class="w-full my-5 lg:mt-10">
+            <div class="flex items-center justify-center lg:justify-between">
+                <nav aria-label="Footer Navigation - Support">
+                    <p class="text-xs sm:mt-0 font-bold text-left capitalize">&copy; All rights and serve by
+                        <a aria-label="ini-deskripsi" href="https://dolltural-web.vercel.app/"
+                            class=hover:underline>Kelompok 1
+                        </a>
+                    </p>
+
+                </nav>
+                <div class="flex flex-wrap gap-4 text-xs">
+                    <p class="flex justify-center items-center font-normal text-xs text-left"><a
+                            aria-label="ini-deskripsi" href="https://tailwindcss.com">Made with<span class=font-bold>
+                                Tailwind CSS</span>
+                        </a>
+                        <span>
+                            <svg role=img viewBox="0 0 24 24" xmlns=http://www.w3.org/2000/svg
+                                class="fill-sky-400 w-5 h-5 lg:mx-2">
+                                <title>Tailwind CSS</title>
+                                <path
+                                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
+                            </svg>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Back to Top -->
+    <a aria-label="ini-deskripsi" href=#home id=to-top
+        class="hidden fixed bottom-5 right-5 rounded-full grayscale hover:grayscale-0 bg-charlie dark:bg-slate-800 hover:bg-white shadow-lg p-2 uppercase leading-normal transition duration-150 ease-in-out hover:shadow-lg focus:bg-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-white active:shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-5" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+        </svg>
+    </a>
+    <!-- End Back to Top -->
+
+    <!-- JS -->
+    <script src="dist/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.pattern {
+  background: radial-gradient(
+    circle at left bottom,
+    transparent 14%,
+    #f1f1f1 15%,
+    #f1f1f1 25%,
+    transparent 26%,
+    transparent 34%,
+    #f1f1f180 35%,
+    #f1f1f180 45%,
+    transparent 46%,
+    transparent 54%,
+    #f1f1f1 55%,
+    #f1f1f1 65%,
+    transparent 66%,
+    transparent 74%,
+    #f1f1f180 75%,
+    #f1f1f180 85%,
+    transparent 86%
+  );
+  background-size: 3em 3em;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-white bg-opacity-50 backdrop-blur-sm;
+}
+
+.hamburger-line {
+  @apply w-[23.5px] h-[2px] my-1.5 block bg-dark;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}

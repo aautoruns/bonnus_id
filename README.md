@@ -3,11 +3,10 @@
 ## Introduction PKM ✨
 
 Pengenalan, projek ini merupakan penugasan mata kuliah Technopreneur dengan Dosen pengampu **Tri Agus Setiawan, M.Kom**, dimana kami disekelas dikelompokan menjadi 6 orang per kelompok. Setiap kelompok ditugaskan membuat sebuah usaha mikro berbasis teknologi untuk partisipasi dalam event [Program Kreativitas Mahasiswa (PKM) 5](https://lldikti6.kemdikbud.go.id/program-kreativitas-mahasiswa-pkm-5-bidang/), Kemendikbud. Dikelompok kami membuat sebuah produk kewirausahaan sebuah mainan anak "Boneka Nusantara" yaitu sebuah boneka pengenalan budaya-budaya di Indonesia seperti
-
--   Pengenalan budaya unik suku bangsa
--   Tari daerah setempat
--   Rumah adat
--   Pakaian adat, dsb.
+- Pengenalan budaya unik suku bangsa
+- Tari daerah setempat
+- Rumah adat
+- Pakaian adat, dsb.
 
 Semua materi diatas kami sampaikan dalam bentuk website interaktif yang bisa menuntun anak untuk minat belajar berbagai budaya di Indonesia.
 
@@ -16,25 +15,23 @@ Semua materi diatas kami sampaikan dalam bentuk website interaktif yang bisa men
 Program Kreativitas Mahasiswa Kewirausahaan (PKM-K) merupakan program kreativitas mahasiswa dalam menciptakan aktivitas usaha. Dalam PKM-K, tim mahasiswa berlatih membuat kreativitas produk usaha yang dibutuhkan masyarakat (pasar).
 
 Tujuan PKM-K 📈
-
-1. Memotivasi (mendorong minat) dan memberikan kesempatan kepada mahasiswa untuk menghasilkan karya kreatif, inovatif sebagai bekal berwirausaha sebelum atau setelah menyelesaikan studi;
+1. Memotivasi (mendorong minat) dan memberikan kesempatan kepada mahasiswa untuk menghasilkan karya kreatif, inovatif sebagai bekal berwirausaha sebelum atau setelah menyelesaikan studi; 
 2. Memberikan kesempatan kepada mahasiswa untuk praktik wirausaha dengan pemahaman konsep wirausaha yang komprehensif. PKM-K diharapkan dapat menjadi cikal bakal kemunculan produk usaha di Indonesia sebagai karya mandiri bangsa.
 
 ## Introduction Project 🪆
 
 ### Anggota Kelompok 🤼
 
--   Eka Saputri (20.240.0121)
--   Galih Azella Firdaus (21.240.0044)
--   Lintang Mawar Bani (21.240.0087)
--   Fatimah Azzahra (21.240.0066)
--   Muhammad Ikrom (21.240.0114)
+- Eka Saputri (20.240.0121)
+- Galih Azella Firdaus (21.240.0044)
+- Lintang Mawar Bani (21.240.0087)
+- Fatimah Azzahra (21.240.0066)
+- Muhammad Ikrom (21.240.0114)
 
 ### Latar Belakang dan Manfaat Boneka Nusantara
-
 Kebudayaan indonesia yang sering kali atau bahkan lalai disampaikan oleh orang tua kepada anaknya menjadi masalah utama kami dalam perencanaan produk ini. Manfaat produk kami :
+- Mengedukasi anak-anak untuk mengenal daerah-daerah di Indonesia lewat boneka maskot yang desainnya menarik dan lucu di-mata anak-anak.
 
--   Mengedukasi anak-anak untuk mengenal daerah-daerah di Indonesia lewat boneka maskot yang desainnya menarik dan lucu di-mata anak-anak.
 
 ### Penangung jawab 👷
 
@@ -83,12 +80,12 @@ dan berjalan di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
 
 Instal [Node.JS](https://nodejs.org/en) terlebih dahulu untuk memulai projek, jika sudah silahkan ikuti langkah berikut.
 
-```bash
+``` bash
     # Kloning repositori
-    $ git clone https://github.com/aautoruns/bonnus_technopreuner
+    $ git clone https://github.com/aautoruns/dolltural_web
 
     # Pindah ke repositori
-    $ cd bonnus_technopreuner
+    $ cd dolltural_web
 
     # Hapus repositori asal saat ini
     $ git remote remove origin
@@ -96,19 +93,22 @@ Instal [Node.JS](https://nodejs.org/en) terlebih dahulu untuk memulai projek, ji
 
 Setelah itu, instal semua paket Node untuk proyek ini
 
-```bash
+``` bash
     # Pasang Modul Tailwind
-    $ npm install -D tailwindcss postcss autoprefixer
+    $ npm instal -D tailwindcss
 
-    # Jalankan Modul
-    $ npx tailwindcss init -p
+    # Instal Modul yang Diketik
+    $ npm instal typed.js
+
+    # Instal Modul Flowbites
+    $npm install flowbite
 ```
 
 Jika sudah jalan kan perintah
 
-```bash
+``` bash
     # Terminal
-    $ npm run dev
+    $ npx tailwindcss -i ./src/tailwind.css -o ./dist/css/style.css --watch
 ```
 
 Dan perintahkan Debugging.
@@ -116,10 +116,9 @@ Dan perintahkan Debugging.
 ### Cara memainkan boneka 🪆
 
 Setelah melakukan instalasi website agar bisa jalan dengan lancar, anda bisa ikuti step berikut :
-
--   Scan QR pada bagian belakang kemasan boneka,
--   Arahkan handphone anda ke posisi yang benar,
--   Masuk link yang muncul,
--   Enjoy learning ✏️
+- Scan QR pada bagian belakang kemasan boneka,
+- Arahkan handphone anda ke posisi yang benar,
+- Masuk link yang muncul,
+- Enjoy learning ✏️
 
 Sekian dokumentasi dari projek kami.
